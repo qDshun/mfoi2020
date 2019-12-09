@@ -14,7 +14,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: #595959;
 }
 
 a, a:hover, a:focus {
@@ -28,7 +28,7 @@ a, a:hover, a:focus {
 }
 
 .default{
-    color: #999!important;
+    color: #595959 !important;
 }
 
 .navbar {
