@@ -1,2 +1,2 @@
 # mfoi2020
-simple website 
+website for mfoi2020 
