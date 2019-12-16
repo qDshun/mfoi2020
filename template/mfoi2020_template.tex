@@ -1,0 +1,201 @@
+\documentclass[11pt,twoside,a5paper]{article}
+\usepackage{mfoi2019}
+
+\usepackage{amsmath, amsthm, graphicx, color, amssymb}
+
+\usepackage{latexsym}
+
+\StartPage{1}
+
+\CopyRight{2019 by FirstNamel LastNamel, FirstName2 LastName2}
+
+
+\Headings{FirstNamel LastNamel, et al.}
+         {Paper Short Title}
+
+\tolerance 1000
+
+
+\title{Paper Title}
+
+\author{FirstNamel LastNamel, FirstName2 LastName2}
+
+\renewcommand{\CaptionChar}{. }
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Place here short abstract in English. Please do not exceed 100 words.
+
+\textbf{Keywords:} computer science, information technologies, conference 
+proceedings (do not exceed 5-6 terms).
+\end{abstract}
+
+\section{Introduction}
+The authors for MFOI'2019 Conference Proceedings are requested to follow 
+instruction given in this sample paper. This template provides authors with 
+most of needed formatting specifications.
+
+Organizing Committee recommends preparing paper using this template style 
+set. Your paper is required to be 6-16 pages (one page approximating A5 size). 
+
+
+\section{Title of section}
+To prepare your papers for MFOI'2019 Conference Proceedings, please, use style mfoi2019.sty. The page margins and size, line spaces and text fonts are prescribed in this style.
+
+\section{Title of section}
+Author's affiliation (institution, address, E-mail) 
+should be given in the bottom of the paper. 
+
+In the beginning of the paper abstract and keywords should be given. 
+Abstract should be about 100 words. 
+
+Paper text may be divided in a number of sections, subsections and subsubsections. 
+
+Equations should be centered and labelled. Equation numbers, within 
+parentheses, are to position flush right, as in Eq. (\ref{eq1}).
+\begin{equation}
+\label{eq1}
+\frac{\partial ^2i}{\partial x^2}=\frac{LC}{\left( {\Delta {\kern 1pt}x} 
+\right)^2}\frac{\partial ^2i}{\partial t^2}+\frac{L}{\left( {\Delta {\kern 
+1pt}x} \right)^2R}\frac{\partial i}{\partial t}
+\end{equation}
+Larger equation must be split in multiple lines, as in Eq. (\ref{eq2}). Number 
+equations consecutively.
+\[
+S(x)=f_i +(f_{i+1} -f_i )t+\frac{h_i^2 M_i (1-t)((1-t)^{\alpha _i 
+}-1)}{\alpha _i (\alpha _i +1)}+
+\]
+\begin{equation}
+\label{eq2}
++\frac{h_i^2 M_{i+1} t(t^{\alpha _i }-1)}{\alpha _i (\alpha _i +1)}
+\end{equation}
+where the following notations are used:
+\[
+t=(x-x_i )/h_i ,h_i =x_{i+1} -x_i ,S"(x_i )=M_i .
+\]
+
+All figures must be stored in *.eps format with the minimum 
+resolution of 300 dpi. Each figure must have a caption under the figure (see 
+Fig.1).
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=8.3cm,height=3.38cm]{fig1.eps}}
+\label{fig1}
+\caption{Caption for Figure 1.}
+\end{figure}
+
+When you refer to an equation, a figure, a table, a section or literature 
+references in the text of the paper please use the following expressing: Eq. 
+(\ref{eq1}), Eqs. (\ref{eq1}) and (\ref{eq2}), Fig. 1, Figs. 1 and 2, Table 1, Tables 1 and 2, Section 1, [1], [2, 4-7].
+
+
+\section{Title of section}
+
+Below there is example for Definition, Theorem and Corollary layout. Also 
+pattern for Example and Table are given. These layouts are recommended, 
+but not obligatory.
+
+
+\subsection{Example of subsection 1}
+
+\textbf{Definition 1 [3].} \textit{A vertex $y$ is called copy for vertex $x(x\ne y)$, in graph $G = (X;U)$ if $\Gamma (x)=\Gamma (y)$}.
+
+\medskip
+\noindent \textbf{Theorem 1 [6]. }\textit{If $T$ is a tree with at least 3 vertexes, then graph $G= L(T, T_{0})$ is $d$-convex simple and planar.}
+
+
+\subsection{Example of subsection 2}
+
+\textbf{Corollary 1} \textit{For a graph $K_n$ with $n\ge 3$, we have:}
+\[
+\left\{ {{\begin{array}{*{20}c}
+ {\overline \chi (K_n )=\frac{9k^2-7k}{3}\quad \mbox{if}\quad n=3k} \quad\quad\quad\\
+ {\overline \chi (K_n )=\frac{9k^2+k-2}{2}\quad \mbox{if}\quad n=3k+1} \ \  \\
+ {\overline \chi (K_n )=\frac{9k^2+5k-2}{2}\quad \mbox{if}\quad n=3k+2} \\
+\end{array} }} \right.
+\]
+
+
+\subsubsection{Example of Subsubsection}
+
+\textbf{Example 1} \textit{Let $A=Q[x^{2}, xy] \subseteq  Q[x, y]$ and use the degree lexicographical order with $x>y$. The set $F=\{x^{2}, xy\}$ is a SAGBI basis for $A$. Let $g=x^{3}y+x^{2}$ and $h=x^{4}+x^{2}y^{2}$ in $A$. A Hilbert basis for the set of solutions of the equation (3) is:} 
+\[
+{\begin{array}{*{20}c}
+ {\vec {v}_1 =(0,0,1,0,1,0),} \hfill & {\vec {v}_2 =(0,1,0,1,0,0),} \hfill & 
+{\vec {v}_3 =(0,2,0,0,0,1),} \hfill \\
+ {\vec {v}_4 =(1,0,0,1,1,0),} \hfill & {\vec {v}_5 =(1,1,0,0,1,1),} \hfill & 
+{\vec {v}_6 =(2,0,0,0,2,1).} \hfill \\
+\end{array} }
+\]
+Thus $PV=\{\vec {v}_5 \}$, so by Algorithm 1 a syzygy family for $(g, h)$ is 
+$\{G^{(1,1,0)}-H^{(0,1,1)}\}=\{-x^{3}y^{3}+x^{4}\}$.
+
+Tables must have caption located above the table (see Table 1).
+
+\begin{table}[htbp]
+\caption{Distances between image feature vectors} \vspace{3mm}
+\begin{tabular}
+{|p{34pt}|p{44pt}|p{44pt}|p{44pt}|p{44pt}|p{44pt}|} \hline &
+$V(I_{1} )$& $V(I_{2} )$& $V(I_{3} )$& $V(I_{4} )$&
+$V(I_{5} )$ \\
+\hline $V(I_{1} )$& 0& 571.3183& 293.0381& 675.6527&
+319.3169 \\
+\hline $V(I_{2} )$& 571.3183& 0& 599.5098& 359.3718&
+618.9163 \\
+\hline $V(I_{3} )$& 293.0381& 599.5098& 0& 686.5573&
+361.6215 \\
+\hline $V(I_{4} )$& 675.6527& 359.3718& 686.5573& 0&
+712.8829 \\
+\hline $V(I_{5} )$& 319.3169& 618.9163& 361.6215& 712.8829&
+0 \\
+\hline
+\end{tabular}
+\label{tab1}
+\end{table}
+
+
+\section{Conclusion}
+
+In this paper the instructions for preparing camera ready paper for 
+including in the Proceedings of the International Conference MFOI'2020  is 
+given.
+
+\textbf{Acknowledgments.} {\ldots} has supported part of the research for 
+this paper.
+
+\begin{thebibliography}{99}
+\bibitem{1} Use References{\_}FOI2020 Style
+\bibitem{2} A.A. Waksman. \textit{Permutation Network.} Journal of the ACM, vol. 15, no 1 (1968), pp. 159--163.
+\bibitem{3} M. Portz. \textit{A generallized description of DES-based and Benes-based permutation generators}. LNCS, vol. 718 (1992), pp. 397--409.
+\bibitem{4} M. Kwan. \textit{The design of the ICE encryption algorithm.} The 4th International Workshop, Fast Software Encryption - FSE '97 Proc. LNCS, vol. 1267 (1997), pp. 69--82.
+\bibitem{5} B. Van Rompay, L.R. Knudsen, V. Rijmen. \textit{Differential cryptanalysis of the ICE encryption algorithm.} The 6th International Workshop, Fast Software Encryption - FSE'98 Proc. LNCS, vol. 1372 (1998), pp. 270--283.
+\bibitem{6} M. Sweedler. \textit{Ideal bases and valuation rings.} Manuscript, 1988.
+\bibitem{7} H. \"{O}fverbeck. \textit{HilbertSagbiSg, Maple packages for Hilbert, SAGBI and SAGBI-Gr\"{o}bner basis calculations}, 2005. \underline {http://www.maths.lth.se/matematiklu/personal/hans/maple}.
+\end{thebibliography}
+
+
+\vspace{2mm}
+\begin{center}
+\begin{parbox}{118mm}{\footnotesize
+FirstNamel LastNamel$^{1}$, FirstName2 LastName2$^{2}$
+
+\vspace{3mm} 
+
+\noindent $^{1}$Affiliation/Institution
+
+\noindent Email:
+
+\vspace{3mm}
+
+\noindent $^{2}$Affiliation/Institution
+
+\noindent Email:
+
+}
+
+\end{parbox}
+\end{center}
+
+\end{document}
